@@ -2,6 +2,16 @@
 @section('title','Absen Siswa')
 @section('content')
     <div class="row">
+        @if (session('status'))
+            <div class="alert alert-success">
+                {{ session('status') }}
+            </div>
+        @endif
+        @if (session('error'))
+            <div class="alert alert-danger">
+                {{ session('error') }}
+            </div>
+        @endif
         <div class="form-group">
             <label class="control-label col-md-3 col-sm-3 col-xs-12">Kelas</label>
                 <select class="form-control" onchange="kelas(this.value)">
@@ -59,11 +69,10 @@
                             <td><input type="hidden" name="nis{{ $siswas->nis }}" value="{{ $siswas->nis }}">{{ $siswas->nis }}</td>
                             <td>{{ $siswas->nama }}</td>
                             <td><div class="radio">
-                                    <label><input value="masuk" type="radio" name="radio{{ $siswas->nis }}" checked="checked">Masuk</label>
-                                    <label><input value="sakit" type="radio" name="radio{{ $siswas->nis }}">Sakit</label>
-                                    <label><input value="ijin" type="radio" name="radio{{ $siswas->nis }}">Ijin</label>
-                                    <label><input value="dispen" type="radio" name="radio{{ $siswas->nis }}">Dispen</label>
-                                    <label><input value="alpa" type="radio" name="radio{{ $siswas->nis }}">alpa</label>
+                                    <label><input value="H" type="radio" name="radio{{ $siswas->nis }}" checked="checked">Hadir</label>
+                                    <label><input value="S" type="radio" name="radio{{ $siswas->nis }}">Sakit</label>
+                                    <label><input value="I" type="radio" name="radio{{ $siswas->nis }}">Ijin</label>
+                                    <label><input value="A" type="radio" name="radio{{ $siswas->nis }}">Alpa</label>
                                 </div></td>
                         </tr>
                         @endforeach
@@ -71,6 +80,7 @@
                         <input type="hidden" name="kelas_id" value="<?php echo $_GET['kelas'];?>">
                         </tbody>
                     </table>
+
                     <button class="btn btn-info">simpan</button>
                 </div>
             </div>

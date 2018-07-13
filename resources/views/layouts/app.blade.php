@@ -21,11 +21,6 @@
                 <div class="title_left">
                     <h3>@yield('title')</h3>
                 </div>
-                <div class="title_right">
-                    <div class="col-md-5 col-sm-5 col-xs-12 form-group pull-right top_search">
-                        <h3>Tanggal <?php echo date('d-m-Y');?></h3>
-                    </div>
-                </div>
                
             <div class="clearfix"></div>
             <div class="data-pjax">
