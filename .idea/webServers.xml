@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="8ebbba39-816b-4c1c-b7b7-47e715c4177a" name="madrasah" url="http://152431213404.ip-dynamic.com/madrasah">
+        <fileTransfer host="152431213404.ip-dynamic.com" port="21" rootFolder="/var/www/html/madrasah">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
