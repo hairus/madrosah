@@ -2,49 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e5e71473-42bc-44b3-b1ba-ac2d7cd583a3" name="Default" comment="baru">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/blade.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/resources/views/admin/editNilai.blade.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/resources/views/admin/formSmt.blade.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/resources/views/admin/import.blade.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/resources/views/admin/updateNilai.blade.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/resources/views/rapor/Ckelas.blade.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/resources/views/rapor/cover.blade.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/resources/views/rapor/formKep.blade.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/resources/views/rapor/kelas.blade.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/resources/views/rapor/nilai.blade.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/resources/views/rapor/nilai2.blade.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/resources/views/rapor/show.blade.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/resources/views/rapor/updateKep.blade.php" />
-      <change beforePath="$PROJECT_DIR$/.idea/dudung.iml" afterPath="$PROJECT_DIR$/.idea/dudung.iml" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" afterPath="$PROJECT_DIR$/.idea/php.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/webServers.xml" afterPath="$PROJECT_DIR$/.idea/webServers.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/AdminController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/AdminController.php" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/RegisterController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/RegisterController.php" />
-      <change beforePath="$PROJECT_DIR$/app/Models/MapelKelas.php" afterPath="$PROJECT_DIR$/app/Models/MapelKelas.php" />
-      <change beforePath="$PROJECT_DIR$/app/Models/siswa.php" afterPath="$PROJECT_DIR$/app/Models/siswa.php" />
-      <change beforePath="$PROJECT_DIR$/app/Models/trx_nilai.php" afterPath="$PROJECT_DIR$/app/Models/trx_nilai.php" />
-      <change beforePath="$PROJECT_DIR$/composer.json" afterPath="$PROJECT_DIR$/composer.json" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" afterPath="$PROJECT_DIR$/composer.lock" />
-      <change beforePath="$PROJECT_DIR$/config/app.php" afterPath="$PROJECT_DIR$/config/app.php" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2014_10_12_100000_create_password_resets_table.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2017_10_04_224633_entrust_setup_tables.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/madrasah/.idea/madrasah.iml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/madrasah/.idea/modules.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/madrasah/.idea/vcs.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/madrasah/.idea/workspace.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/cetak.blade.php" afterPath="$PROJECT_DIR$/resources/views/admin/cetak.blade.php" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/formAb.blade.php" afterPath="$PROJECT_DIR$/resources/views/admin/formAb.blade.php" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/formIN.blade.php" afterPath="$PROJECT_DIR$/resources/views/admin/formIN.blade.php" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/kelas.blade.php" afterPath="$PROJECT_DIR$/resources/views/admin/kelas.blade.php" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/listSiswa.blade.php" afterPath="$PROJECT_DIR$/resources/views/admin/listSiswa.blade.php" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" />
-      <change beforePath="$PROJECT_DIR$/resources/views/partials/_head.blade.php" afterPath="$PROJECT_DIR$/resources/views/partials/_head.blade.php" />
-      <change beforePath="$PROJECT_DIR$/resources/views/partials/_sidenav.blade.php" afterPath="$PROJECT_DIR$/resources/views/partials/_sidenav.blade.php" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" afterPath="$PROJECT_DIR$/routes/web.php" />
-      <change beforePath="$PROJECT_DIR$/server.php" afterPath="" />
     </list>
     <ignored path=".idea/dataSources.local.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -102,7 +60,11 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="27">
               <caret line="38" column="41" lean-forward="false" selection-start-line="38" selection-start-column="41" selection-end-line="38" selection-end-column="41" />
-              <folding />
+              <folding>
+                <marker date="1544853031131" expanded="true" signature="155:188" ph="..." />
+                <marker date="1544853031131" expanded="true" signature="1713:1727" ph="..." />
+                <marker date="1544853031131" expanded="true" signature="1906:1919" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -111,7 +73,7 @@
         <entry file="file://$PROJECT_DIR$/routes/web.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1539">
-              <caret line="66" column="52" lean-forward="true" selection-start-line="66" selection-start-column="52" selection-end-line="66" selection-end-column="52" />
+              <caret line="66" column="52" lean-forward="false" selection-start-line="66" selection-start-column="52" selection-end-line="66" selection-end-column="52" />
               <folding />
             </state>
           </provider>
@@ -290,6 +252,7 @@
       <path value="$PROJECT_DIR$/vendor/phpoffice/phpexcel" />
       <path value="$PROJECT_DIR$/vendor/maatwebsite/excel" />
       <path value="$PROJECT_DIR$/vendor/jeremeamia/SuperClosure" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-ctype" />
     </include_path>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
@@ -504,7 +467,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="69524000" />
+    <option name="totallyTimeSpent" value="69770000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -518,7 +481,7 @@
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
     <layout>
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32840723" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32839224" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32673267" sideWeight="0.5030257" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="NativeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -527,18 +490,21 @@
       <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32611173" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18850698" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Nativescript Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32840723" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32673267" sideWeight="0.5030257" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32840723" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -917,7 +883,7 @@
     <entry file="file://$PROJECT_DIR$/routes/web.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1539">
-          <caret line="66" column="52" lean-forward="true" selection-start-line="66" selection-start-column="52" selection-end-line="66" selection-end-column="52" />
+          <caret line="66" column="52" lean-forward="false" selection-start-line="66" selection-start-column="52" selection-end-line="66" selection-end-column="52" />
           <folding />
         </state>
       </provider>
@@ -953,7 +919,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="27">
           <caret line="38" column="41" lean-forward="false" selection-start-line="38" selection-start-column="41" selection-end-line="38" selection-end-column="41" />
-          <folding />
+          <folding>
+            <marker date="1544853031131" expanded="true" signature="155:188" ph="..." />
+            <marker date="1544853031131" expanded="true" signature="1713:1727" ph="..." />
+            <marker date="1544853031131" expanded="true" signature="1906:1919" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
