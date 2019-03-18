@@ -62,11 +62,11 @@
                                 </tbody>
                             </table>
                             Keterangan
-                            H   : HADIR
+                            1   : HADIR
+                            2   : SAKIT
+                            3   : IJIN
+                            4   : ALPA
                             L   : LIBUR
-                            A   : ALPA
-                            S   : SAKIT
-                            I   : IJIN
                         </div>
                     </div>
        </div>

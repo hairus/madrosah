@@ -9,7 +9,7 @@
         <!-- menu profile quick info -->
         <div class="profile">
             <div class="profile_pic">
-                <img src="/images/img.jpg" alt="..." class="img-circle profile_img">
+                <img src="{{asset('/public/images/img.jpg')}}" alt="..." class="img-circle profile_img">
             </div>
             <div class="profile_info">
                 <span>Assalamu Alaikum Admin,</span>
@@ -32,18 +32,21 @@
                             <li><a href="{{ url('/admin/inputSiswa/') }}">Tambah Siswa</a></li>
                             <li><a href="{{ url('admin/absen') }}">Absen Siswa</a></li>
                             <li><a href="{{ url('admin/laporan') }}">Cetak Laporan Bulanan</a></li>
+                            <li><a href="{{ url('admin/smt') }}">Aktifasi Semester</a></li>
                         </ul>
                     </li>
                     <li><a><i class="fa fa-edit"></i>Nilai Rapor<span class="fa fa-chevron-down"></span></a>
                         <ul class="nav child_menu">
                             <li><a href="{{ url('admin/kelas') }}">Input Nilai</a></li>
-                            <li><a href="{{ url('admin/nilai/indexKM') }}">Edit Nilai</a></li>
+                            <li><a href="{{ url('rapor/sia') }}">Input SIA</a></li>
+                            <li><a href="{{ url('rapor/kep') }}">Input Kepribadian</a></li>
+                            <li><a href="{{ url('rapor/cetak') }}">Cetak Rapor</a></li>
                         </ul>
                     </li>
                     <li><a><i class="fa fa-cogs"></i>Settings <span class="fa fa-chevron-down"></span></a>
                         <ul class="nav child_menu">
-                            <li><a href="#">Tambah Siswa</a></li>
-                            <li><a href="#">Configuration</a></li>
+                            <li><a href="{{url('/admin/add')}}">Tambah User</a></li>
+                            <li><a href="{{url('/admin/showUser')}}">List User</a></li>
                         </ul>
                     </li>
                 </ul>

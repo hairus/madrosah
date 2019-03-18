@@ -9,7 +9,7 @@
     <title>{{config('app.name','Laravel Gentelella')}} | @yield('title') </title>
 
     <!-- App Css -->
-    <link href="{{asset('css/app.css')}}" rel="stylesheet">
+    <link href="{{asset('public/css/app.css')}}" rel="stylesheet">
     @stack('header-scripts')
 
 </head>

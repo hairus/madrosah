@@ -1,6 +1,17 @@
 @extends('layouts.app')
 @section('title','Absen Siswa')
 @section('content')
+<div class="row">
+        @if (session('status'))
+            <div class="alert alert-success">
+                {{ session('status') }}
+            </div>
+        @endif
+        @if (session('error'))
+            <div class="alert alert-danger">
+                {{ session('error') }}
+            </div>
+        @endif
   <div class="row">
       <div class="form-group">
           <label class="control-label col-md-3 col-sm-3 col-xs-12">Kelas</label>
@@ -54,15 +65,20 @@
                                   <th>{{ $no++ }}</th>
                                   <td><input type="hidden" name="nis{{ $siswas->nis }}" value="{{ $siswas->nis }}">{{ $siswas->nis }}</td>
                                   <td>{{ $siswas->nama }}</td>
-                                  <td><a href="{{ url('/admin/cetak/') }}/{{$siswas->id}}">
-                                          <button class="btn btn-danger">cetak </button></a></td>
+                                  <td>
+                                    <a href="{{ url('/admin/cetak/') }}/{{$siswas->id}}">
+                                        <button class="btn btn-danger">cetak </button></a>
+                                    <a href="{{ url('/admin/FormEdit/') }}/{{$siswas->nis}}" target="_blank">
+                                        <button class="btn btn-danger">Edit Hari Ini </button></a>
+                                    <a href="{{ url('/admin/editTgl/') }}/{{$siswas->nis}}" target="_blank">
+                                        <button class="btn btn-danger">Edit Berdasarkan Tanggal</button></a>
+                                  </td>
                               </tr>
                           @endforeach
                           <input type="hidden" name="created_at" value="<?php echo date('Y-m-d H:i:s');?>">
                           <input type="hidden" name="kelas_id" value="<?php echo $_GET['kelas'];?>">
                           </tbody>
                       </table>
-                      <button class="btn btn-info">simpan</button>
                   </div>
               </div>
           </div>

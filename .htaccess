@@ -1,0 +1,25 @@
+#Disable index view
+options -Indexes
+
+#hide a Specifuc File
+
+<Files .env>
+order allow,deny
+Deny from all
+</Files>
+
+
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteCond %{REQUEST_URI} !(\.css|\.js|\.png|\.jpg|\.gif|robots\.txt)$ [NC]
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteRule ^ index.php [L]
+
+    RewriteRule ^.env - [F,L,NC]
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteRule ^(css|js|images)/(.*)$ public/$1/$2 [L,NC]
+</IfModule>

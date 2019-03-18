@@ -10,6 +10,18 @@ use Illuminate\Foundation\Auth\RegistersUsers;
 class RegisterController extends Controller
 {
     /*
+    menghilankan fungsi register di sini
+    */
+    public function showRegistrationForm()
+    {
+        return redirect('login');
+    }
+
+    public function register()
+    {
+        return redirect('login');
+    }
+    /*
     |--------------------------------------------------------------------------
     | Register Controller
     |--------------------------------------------------------------------------
@@ -62,10 +74,11 @@ class RegisterController extends Controller
      */
     protected function create(array $data)
     {
-        return User::create([
-            'name' => $data['name'],
-            'email' => $data['email'],
-            'password' => bcrypt($data['password']),
-        ]);
+        // return User::create([
+        //     'name' => $data['name'],
+        //     'email' => $data['email'],
+        //     'password' => bcrypt($data['password']),
+        // ]);
+        return $redirectTo('/');
     }
 }

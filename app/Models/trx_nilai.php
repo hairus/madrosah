@@ -13,4 +13,9 @@ class trx_nilai extends Model
     {
         return $this->belongsTo('App\Models\siswa', 'nis', 'nis');
     }
+
+    public function mapel()
+    {
+        return $this->belongsTo('App\Models\mapels', 'mapel_id', 'id');
+    }
 }

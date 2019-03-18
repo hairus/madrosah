@@ -11,7 +11,7 @@ class MapelKelas extends Model
 
     public function mapels()
     {
-        return $this->belongsTo('App\Models\mapels');
+        return $this->belongsTo('App\Models\mapels', 'mapel_id', 'id');
     }
 
     public function kelass()

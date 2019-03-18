@@ -35,7 +35,7 @@
     <!-- /footer content -->
     </div>
 
-<script src="{{asset('js/app.js')}}"></script>
+<script src="{{asset('public/js/app.js')}}"></script>
 @include('partials._notification')
 @stack('scripts')
 

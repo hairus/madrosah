@@ -69,10 +69,10 @@
                             <td><input type="hidden" name="nis{{ $siswas->nis }}" value="{{ $siswas->nis }}">{{ $siswas->nis }}</td>
                             <td>{{ $siswas->nama }}</td>
                             <td><div class="radio">
-                                    <label><input value="H" type="radio" name="radio{{ $siswas->nis }}" checked="checked">Hadir</label>
-                                    <label><input value="S" type="radio" name="radio{{ $siswas->nis }}">Sakit</label>
-                                    <label><input value="I" type="radio" name="radio{{ $siswas->nis }}">Ijin</label>
-                                    <label><input value="A" type="radio" name="radio{{ $siswas->nis }}">Alpa</label>
+                                    <label><input value="1" type="radio" name="radio{{ $siswas->nis }}" checked="checked">Hadir</label>
+                                    <label><input value="2" type="radio" name="radio{{ $siswas->nis }}">Sakit</label>
+                                    <label><input value="3" type="radio" name="radio{{ $siswas->nis }}">Ijin</label>
+                                    <label><input value="4" type="radio" name="radio{{ $siswas->nis }}">Alpa</label>
                                 </div></td>
                         </tr>
                         @endforeach
