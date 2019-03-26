@@ -18,7 +18,6 @@ Route::get('/', function () {
     return redirect(route('dashboard'));
 });
 
-
 Route::group(['middleware' => ['admin']], function () {
     /*
     |--------------------------------------------------------------------------
